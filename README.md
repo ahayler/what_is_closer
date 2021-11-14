@@ -1,10 +1,10 @@
 **Final Project: What is closer? - The Game**
 
-This is my final project  Quoting from the in-game-instructions:
+This is was my final project for CS50's Introduction to Computer Science. Quoting from the in-game-instructions:
 
 _"The Website gives you each round two random cities from all around the world. You then have to guess what city is closer to your geographic location
 (You can see your location at the top of the website). Keep guessing correctly and increase your score. In the end you can submit your score to the online 
-leaderboard to compete with players all around the world."_
+leaderboard to compete with other players."_
 
 It is build with a database consisting of two SQL tables (one a dataset of 12k cities from simplemaps.com and the other one is the leaderboard).
 A big part of the game is run on the clientside using Javascript. This is done for the following reasons:
