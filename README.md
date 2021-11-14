@@ -1,16 +1,15 @@
-Final Project: What is closer? - The Game
+**Final Project: What is closer? - The Game**
 
-My final project is a simple browser game. Quoting from the in-game-instructions:
-"The Website gives you each round two random cities from all around the world. You then have to guess what city is closer to your geographic location
+This is my final project  Quoting from the in-game-instructions:
+
+_"The Website gives you each round two random cities from all around the world. You then have to guess what city is closer to your geographic location
 (You can see your location at the top of the website). Keep guessing correctly and increase your score. In the end you can submit your score to the online 
-leaderboard to compete with players all around the world."
+leaderboard to compete with players all around the world."_
 
-It is build with a database consisting of two tables (one a dataset of 12k cities from simplemaps.com and the other is the leaderboard).
-A lot of the game is run on the clientside with Javascript. This is done because of the following reasons:
-1. I really wanted to get comfortable with JS in the final project because it was my main point of struggle during pset8
-2. JS enables me to minimize server traffic and enables a smoth expericence on the client side
-3. JS makes the website more interactive
-
-The distances are calculated by the geopy libary in pyhton, because getting very accurate distances is else very hard (as the earth is in reality no sphere).
-
-The Webapp features 3 html-pages in total (the game itself, the leaderboard and instructions):
+It is build with a database consisting of two SQL tables (one a dataset of 12k cities from simplemaps.com and the other one is the leaderboard).
+A big part of the game is run on the clientside using Javascript. This is done for the following reasons:
+1. I really wanted to get comfortable with JS in the final project, because it was my main point of struggle during the course
+2. JS enabled me to minimize server traffic and enabled a smooth expericence on the client side
+3. JS made the website more interactive
+4. 
+The distances are calculated by the geopy libary in Pyhton, because calculating accurate distances is else quite hard (as the earth is not a perfect sphere):
