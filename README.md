@@ -12,4 +12,4 @@ A big part of the game is run on the clientside using Javascript. This is done f
 2. JS enabled me to minimize server traffic and enabled a smooth expericence on the client side
 3. JS made the website more interactive
 4. 
-The distances are calculated by the geopy libary in Pyhton, because calculating accurate distances is else quite hard (as the earth is not a perfect sphere):
+The distances are calculated by the geopy libary in Pyhton, because calculating accurate distances is else quite hard (as the earth is not a perfect sphere).
