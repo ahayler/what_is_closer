@@ -1,0 +1,8 @@
+phpliteadmin locations.db
+
+ + '&c_city_lat=' + city.lat + '&c_city_lng=' + city.lng 
+ 
+ 
+ 
+    choosen_city = {"lat": request.args.get('loc_lat'), "lng": request.args.get('loc_lng')}
+    other_city = {"lat": request.args.get('loc_lat'), "lng": request.args.get('loc_lng')}
